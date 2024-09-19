@@ -1,4 +1,0 @@
-package com.inventory.management.exception;
-
-public class ProfessorNotFoundException {
-}
