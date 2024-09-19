@@ -1,0 +1,19 @@
+package com.inventory.management.service;
+
+import com.inventory.management.model.Person;
+
+import java.util.List;
+
+public interface IProfessorService {
+
+    public Person addPerson(Person person);
+
+    public List<Person> getAllPersons();
+
+    public Person getPersonById(Long id);
+
+    public Person updatePerson(Person person, Long id);
+
+    public void deletePerson(Long id);
+
+}
