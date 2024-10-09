@@ -1,8 +1,5 @@
-package com.inventory.management.controller;
+package com.inventory.management.exception;
 
-import com.inventory.management.exception.EntityAlreadyExistsException;
-import com.inventory.management.exception.EntityNotFoundException;
-import com.inventory.management.exception.ErrorMessageBody;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.MethodArgumentNotValidException;
